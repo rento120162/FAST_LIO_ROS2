@@ -93,7 +93,7 @@ def generate_launch_description():
     )
 
     ld = LaunchDescription()
-    ld.add_action(livox_cmd)
+    #ld.add_action(livox_cmd)
     ld.add_action(lidar_transform_node)
     ld.add_action(declare_use_sim_time_cmd)
     ld.add_action(declare_config_path_cmd)
